@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package GUI;
+package sotaysinhvien;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ import javax.swing.table.AbstractTableModel;
  */
 public class TBKetQua extends AbstractTableModel implements Serializable{
     
-    String name[] = {"Mã môn học","Tên môn học","TX1","TX2","Điểm thi","Điểm trung bình","Kết quả"};
+    String name[] = {"Mã môn h�?c","Tên môn h�?c","TX1","TX2","�?iểm thi","�?iểm trung bình","Kết quả"};
     Class classes[] = {String.class,String.class,float.class,float.class,float.class,float.class,EKetQua.class};
     ArrayList<KetQua> dskq = new ArrayList<>();
 
